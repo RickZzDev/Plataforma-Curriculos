@@ -1,0 +1,146 @@
+body {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(338deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container {
+    background: rgb(255, 255, 255, 0.8);
+    width: 1450px;
+    min-height: 1150px;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#titulo {
+    width: 100%;
+    height: 42px;
+    background-color: rgba(243, 243, 243, 0.7);
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#titulo_aceitos {
+    width: 100%;
+    height: 43px;
+    background-color: rgba(243, 243, 243, 0.7);
+    border-radius: 10px;
+    margin-left: -5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 18px;
+}
+
+#caixa_pendentes {
+    background: ;
+    height: 200px;
+    width: 250px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: rgb(92, 91, 91);
+}
+
+.item_pendente {
+    height: 143px;
+    width: inherit;
+    background: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 2px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+#nome {
+    background: ;
+    width: inherit;
+    height: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#estado {
+    background: ;
+    width: inherit;
+    height: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#celular {
+    background: ;
+    width: inherit;
+    height: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#opcoes {
+    background: ;
+    width: inherit;
+    height: 40px;
+    padding-left: 70%;
+}
+
+#itens_aceitos {
+    background: ;
+    min-height: 850px;
+    width: 1180px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 35px;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+#box_visualizar {
+    width: 70px;
+    background: rgb(63, 94, 251);
+    background: linear-gradient(338deg, rgba(63, 94, 251, 1) 0%, rgb(255, 16, 64) 100%);
+    height: 30px;
+    float: left;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 5px;
+}
+
+img {
+    margin-top: 4px;
+}
+
+.div_aceitos {
+    width: 340px;
+    height: 138px;
+    background: white;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 8px;
+    color: rgb(92, 91, 91);
+}
+
+.div_aceitos #opcoes {
+    padding-left: 75%;
+}
+
+.div_aceitos #opcoes #box_visualizar {
+    width: 75px;
+    padding-top: 2px;
+}

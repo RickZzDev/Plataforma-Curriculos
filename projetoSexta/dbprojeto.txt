@@ -1,0 +1,25 @@
+CREATE TABLE `dbprojeto`.`tblexcluidos` (
+  `codigo` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(50) CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NOT NULL,
+  `telefone` VARCHAR(15)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NOT NULL,
+  `celular` VARCHAR(15)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NOT NULL,
+  `email` VARCHAR(50)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NOT NULL,
+  `estado` VARCHAR(45)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NOT NULL,
+  `cidade` VARCHAR(45)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NOT NULL,
+  `cep` VARCHAR(45)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NOT NULL,
+  `idioma` VARCHAR(45)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NULL,
+  `nivel` VARCHAR(45)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NULL,
+  `idioma_secundario` VARCHAR(45)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NULL,
+  `nivel_secundario` VARCHAR(45)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NULL,
+  `formacao` VARCHAR(100)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NOT NULL,
+  `formacao2` VARCHAR(100)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NULL,
+  `formacao3` VARCHAR(100)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NULL,
+  `formacao4` VARCHAR(100)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NULL,
+  `habilidades` VARCHAR(200)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NOT NULL,
+  `link` VARCHAR(45)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NULL,
+  `link2` VARCHAR(45)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NULL,
+  `link3` VARCHAR(45)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NULL,
+  `link4` VARCHAR(45)  CHARACTER SET 'utf8' COLLATE 'utf8_general_ci' NULL,
+  PRIMARY KEY (`codigo`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;
