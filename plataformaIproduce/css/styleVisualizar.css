@@ -1,0 +1,192 @@
+body {
+    background: gray;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#containerDados {
+    background: white;
+    width: 800px;
+    min-height: 880px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+#nome_tel_cel_email {
+    width: inherit;
+    height: 140px;
+    background: ;
+}
+
+#nome_tel {
+    background: ;
+    height: inherit;
+    width: 250px;
+    float: left;
+}
+
+.caixas {
+    width: inherit;
+    height: 32px;
+    background: khaki;
+    margin-bottom: 4px;
+    padding-left: 15px;
+    border-bottom: solid 1px;
+    background: white;
+}
+
+#caixa_end {
+    width: 350px;
+    height: inherit;
+    background: ;
+    float: right;
+}
+
+.caixa_dados {
+    width: 650px;
+    height: 280px;
+    background: white;
+    margin-top: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+#titulo_habilidades {
+    width: 480px;
+    height: 50px;
+    background: grey;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+#txtHabilidades {
+    width: 90%;
+    height: 220px;
+    background: rgb(206, 206, 205);
+}
+
+#caixa_idioma {
+    background: ;
+    width: 450px;
+    height: 150px;
+}
+
+#titulo_idioma {
+    width: inherit;
+    height: 40px;
+    background: grey;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.idioma {
+    width: inherit;
+    height: 55px;
+    margin-bottom: 1px;
+    background: ;
+}
+
+.nome_idioma {
+    height: inherit;
+    width: 50%;
+    background: white;
+    float: left;
+    padding-left: 4px;
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+
+.nivel_idioma {
+    height: inherit;
+    width: 48%;
+    background: white;
+    float: left;
+    margin-left: 8px;
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.caixas_formacoes {
+    width: 155px;
+    height: 210px;
+    background: ;
+    margin-right: 2px;
+    margin-left: 5px;
+    float: left;
+    border: solid 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.titulo_formacoes {
+    background: white;
+    width: inherit;
+    height: 50px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.txtFormacao {
+    background: rgb(206, 206, 205);
+    width: 95%;
+    height: 155px;
+}
+
+.txtLinks {
+    width: 180px;
+    height: 50px;
+    background: white;
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.titulos_caixa {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#aceitar_deletar {
+    background: ;
+    width: 650px;
+    height: 45px;
+    padding-left: 170px;
+    padding-top: 10px;
+}
+
+#aprovar {
+    background: rgb(3, 189, 3);
+    border: 0px;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#deletar {
+    background: rgb(231, 1, 1);
+    border: 0px;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#deletar:hover {
+    transform: translateY(-5px);
+}

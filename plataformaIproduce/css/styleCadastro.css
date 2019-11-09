@@ -1,0 +1,431 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(338deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#containerForm {
+    background: white;
+    height: 1750px;
+    width: 600px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#titulo {
+    width: 80%;
+    height: 50px;
+    background: ;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+#div_titulo {
+    width: 350px;
+    height: inherit;
+    background: ;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#inputs {
+    height: 1600px;
+    border-bottom: solid 1px;
+    width: inherit;
+    margin-bottom: 8px;
+    background: repeat;
+}
+
+.caixa_input_nome {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 5px;
+    float: left;
+    margin-left: 125px;
+}
+
+#linha1inputs {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    padding-left: 5%;
+}
+
+.caixa_input_telefone {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+    padding-left: 5%;
+}
+
+.caixa_input_celular {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 0px;
+    margin-bottom: 5px;
+    padding-left: 5%;
+}
+
+#sltNivel {
+    border-radius: 50px;
+}
+
+#caixa_input_email {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+#caixa_input_estado {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+#caixa_input_cidade {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+#caixa_input_cep {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+.caixa_input_idioma {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+.caixa_input_nivel {
+    width: 400px;
+    background: ;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+.caixa_input_formacao {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+#caixa_input_habilidades {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+.caixa_input_link {
+    width: 400px;
+    background: ;
+    height: 70px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+#linhaFormacao {
+    width: inherit;
+    background: ;
+    height: 80px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+.nome_input {
+    height: inherit;
+    width: 100px;
+    background: red;
+    float: left;
+    font-size: 19px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 4px;
+}
+
+#nome_input_formacao {
+    height: inherit;
+    width: 100px;
+    background: ;
+    float: left;
+    font-size: 19px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+    margin-left: 150px;
+}
+
+.campo_input {
+    width: 250px;
+    background: ;
+    height: inherit;
+    box-sizing: border-box;
+    padding-top: 4px;
+    float: left;
+}
+
+#input_formacao {
+    width: 250px;
+    background: ;
+    height: inherit;
+    box-sizing: border-box;
+    padding-top: 4px;
+    float: left;
+}
+
+#btnCadastrar {
+    background: ;
+    height: 30px;
+    width: 120px;
+    margin-left: auto;
+}
+
+#btnCadastro {
+    background: #007bff;
+    color: white;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    padding-top: 1px;
+    padding-left: 9px;
+}
+
+#btnCadastro:hover {
+    background: #0159b6;
+}
+
+#txtFormacao {
+    height: 60px;
+    resize: none;
+}
+
+
+/************************RESPONSIVIDADE*******************/
+
+@media screen and (max-width:900px) {
+    #containerForm {
+        width: 100vw;
+        min-height: 100vw;
+        background: ;
+    }
+    #linha1inputs {
+        background: ;
+        padding-left: 0px;
+        margin-left: 5%;
+    }
+}
+
+
+/**********************************/
+
+
+/* form starting stylings ------------------------------- */
+
+
+/* basic stylings ------------------------------------------ */
+
+.container {
+    font-family: 'Roboto';
+    width: 600px;
+    margin: 30px auto 0;
+    display: block;
+    background: #FFF;
+    padding: 10px 50px 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h2 small {
+    font-weight: normal;
+    color: #888;
+    display: block;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: #53B2C8;
+}
+
+
+/* form starting stylings ------------------------------- */
+
+.group {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* LABEL ======================================= */
+
+label {
+    color: rgb(255, 121, 121);
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+
+/* active state */
+
+input:focus~label,
+input:valid~label {
+    top: -20px;
+    font-size: 14px;
+    color: rgb(158, 158, 158);
+}
+
+
+/* BOTTOM BARS ================================= */
+
+.bar {
+    position: relative;
+    display: block;
+    width: 300px;
+}
+
+.bar:before,
+.bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+
+/* active state */
+
+input:focus~.bar:before,
+input:focus~.bar:after {
+    width: 50%;
+}
+
+
+/* HIGHLIGHTER ================================== */
+
+.highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+
+/* active state */
+
+input:focus~.highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+
+/* ANIMATIONS ================ */
+
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}

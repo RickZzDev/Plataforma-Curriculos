@@ -1,0 +1,336 @@
+body {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(338deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#containerDados {
+    background: white;
+    width: 800px;
+    min-height: 880px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+#nome_tel_cel_email {
+    width: inherit;
+    height: 210px;
+    background: ;
+}
+
+#nome_tel {
+    background: ;
+    height: 90%;
+    width: 250px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-top: 35px;
+}
+
+.caixas {
+    width: inherit;
+    height: 32px;
+    background: khaki;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border-bottom: solid 1px;
+    background: white;
+    color: rgb(117, 117, 117);
+}
+
+#caixa_end {
+    width: 350px;
+    height: 80%;
+    background: ;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding-top: 35px;
+}
+
+#caixa_links {
+    width: 650px;
+    min-height: 295px;
+    background: ;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.caixa_dados {
+    width: 650px;
+    min-height: 295px;
+    background: ;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#titulo_habilidades {
+    width: 480px;
+    height: 50px;
+    background: ;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-bottom: solid 1px;
+    color: rgb(194, 194, 194);
+}
+
+#txtHabilidades {
+    width: 90%;
+    height: 220px;
+    background: rgb(245, 245, 244);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#caixa_idioma {
+    background: ;
+    width: 480px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulo_idioma {
+    width: inherit;
+    height: 40px;
+    background: ;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 25px;
+    border-bottom: solid 1px;
+    color: rgb(194, 194, 194);
+}
+
+.idioma {
+    width: inherit;
+    height: 55px;
+    margin-bottom: 10px;
+    background: ;
+}
+
+.nome_idioma {
+    height: inherit;
+    width: 45%;
+    background: ;
+    float: left;
+    padding-left: 4px;
+    border-bottom: solid 1px;
+    padding-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nivel_idioma {
+    height: inherit;
+    width: 52%;
+    background: ;
+    float: left;
+    margin-left: 8px;
+    border-bottom: solid 1px;
+    padding-left: 5px;
+    padding-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.caixas_formacoes {
+    width: 155px;
+    height: 210px;
+    background: ;
+    margin-right: 2px;
+    margin-left: 5px;
+    /* float: left; */
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.titulo_formacoes {
+    background: white;
+    width: inherit;
+    height: 50px;
+    font-size: 20px;
+    font-family: cursive;
+    padding-left: 10px;
+}
+
+.txtFormacao {
+    background: rgb(243, 243, 242);
+    width: 95%;
+    height: 155px;
+    padding: 10px;
+}
+
+.txtLinks {
+    width: 180px;
+    height: 50px;
+    background: white;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: solid 0.5px;
+    border-color: rgb(177, 177, 177);
+    flex-direction: column;
+}
+
+.titulos_caixa {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(129, 123, 123);
+}
+
+#aceitar_deletar {
+    width: 650px;
+    height: 45px;
+    padding-left: 22%;
+    padding-top: 10px;
+}
+
+#aceitar_deletar2 {
+    width: 650px;
+    height: 45px;
+    padding-left: 31%;
+    padding-top: 10px;
+}
+
+#aprovar {
+    background: rgb(3, 189, 3);
+    border: 0px;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#deletar {
+    background: rgb(231, 1, 1);
+    border: 0px;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#deletar:hover {
+    transform: translateY(-5px);
+}
+
+#aprovar:hover {
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width:900px) {
+    .caixa_dados {
+        background: ;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    #containerDados {
+        background: ;
+        width: 100vw;
+    }
+    /* .caixas {
+        width: inherit;
+        height: 32px;
+        background: khaki;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        border-bottom: solid 1px;
+        background: white;
+        color: rgb(117, 117, 117);
+    } */
+    #nome_tel {
+        background: ;
+        height: 90%;
+        width: 40vw;
+        float: left;
+        margin-left: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+        box-sizing: border-box;
+        padding-top: 35px;
+    }
+    #caixa_end {
+        width: 50vw;
+        height: 80%;
+        background: ;
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+        box-sizing: border-box;
+        padding-top: 35px;
+    }
+    #titulo_habilidades {
+        margin-left: 0px;
+        width: 100vw;
+    }
+    #txtHabilidades {
+        margin-left: 0px;
+        width: 100vw;
+    }
+    #titulo_idioma {
+        margin-left: 0px;
+    }
+    #caixa_idioma {
+        background: ;
+        width: 100vw;
+        height: 170px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .caixas_formacoes {
+        width: 100%;
+        background: ;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* .caixas_formacoes1 {
+        float: none;
+        width: 155px;
+        height: 210px;
+        background: ;
+        margin-right: 2px;
+        margin-left: 5px;
+        border-radius: 10px;
+        box-sizing: border-box;
+    } */
+    .titulo_formacoes {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .txtFormacao {
+        width: 90%;
+        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .txtLinks {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,190 @@
+body {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(338deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container {
+    background: white;
+    width: 1450px;
+    min-height: 1350px;
+    margin-top: 20px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    overflow: hidden;
+}
+
+#caixa_pendentes {
+    background: grey;
+    height: inherit;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+}
+
+.item_pendente {
+    height: 135px;
+    width: inherit;
+    background: white;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+#nome {
+    background: ;
+    width: inherit;
+    height: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#estado {
+    background: ;
+    width: inherit;
+    height: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#celular {
+    background: ;
+    width: inherit;
+    height: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#opcoes {
+    background: ;
+    width: inherit;
+    height: 30px;
+    padding-left: 75%;
+}
+
+#itens_aceitos {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 70%;
+    min-height: 680px;
+    background: rgb(226, 2, 2);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    overflow: hidden;
+}
+
+#box_visualizar {
+    width: 78px;
+    background: rgb(63, 94, 251);
+    background: linear-gradient(338deg, rgba(63, 94, 251, 1) 0%, rgb(255, 16, 64) 100%);
+    height: 30px;
+    float: left;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 10px;
+    color: white;
+}
+
+img {
+    margin-top: 4px;
+}
+
+.div_aceitos {
+    width: 350px;
+    min-height: 138px;
+    background: rgba(255, 255, 255, 0.753);
+    float: left;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-top: 7px;
+    color: rgb(107, 107, 107);
+}
+
+#superContainer {
+    /* background: rgb(63, 94, 251);
+    background: linear-gradient(338deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%); */
+    background: none;
+    min-height: 1010px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#container_centro {
+    background: rgba(245, 241, 241, 0.1);
+    min-height: 115vh;
+    width: 45vw;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#areaBemVindo {
+    width: 100%;
+    height: 30vh;
+    color: white;
+}
+
+#textos_caixa {
+    width: 100%;
+    min-height: 30vh;
+    background: ;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width: 900px) {
+    #container_centro {
+        background: rgba(245, 241, 241, 0.1);
+        min-height: 110vh;
+        width: 100vw;
+        box-sizing: border-box;
+        padding-left: 0px;
+        overflow: hidden;
+    }
+    .div_aceitos {
+        width: 100vw;
+        height: 138px;
+        background: white;
+        float: left;
+        margin-bottom: 40px;
+        border: solid 1px;
+        border-radius: 10px;
+        margin-left: 0vw;
+    }
+    #opcoes {
+        background: white;
+        width: inherit;
+        height: 35px;
+        padding-left: 80vw;
+    }
+    #container {
+        margin-top: 5px;
+    }
+    #areaBemVindo {
+        width: 100%;
+        height: 48vh;
+        color: white;
+        background: ;
+    }
+    #textos_caixa {
+        width: 100%;
+        min-height: 30vh;
+        background: ;
+        box-sizing: border-box;
+        padding-top: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
